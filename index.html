@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tasks Application</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+    <!-- css -->
+    <style>
+        .line-through {
+            text-decoration: line-through;
+        }
+    </style>
+    <!-- end css -->
+</head>
+<body>
+    <!-- header -->
+    <header class="bg-dark p-3">
+        <h1 class="text-light">Your Tasks <i class="bi bi-list-task"></i></h1>
+    </header>
+    <!-- input -->
+    <section class="my-5 container w-50 mx-auto">
+        <form action="" class="form-group">
+            <input type="text" name="title" id="title" placeholder="Title" class="form-control my-2">
+            <textarea name="desc" id="desc" placeholder="Description.." class="form-control"></textarea>
+            <input type="submit" value="Add" class="btn btn-sm btn-dark my-2">
+        </form>
+    </section>
+    <!-- end input section -->
+    <!-- tasks -->
+    <section>
+        <div class="container">
+            <div class="py-2 text-center bg-info rounded fw-bolder my-3 w-50 mx-auto">All Tasks</div>
+            <div class="row my-5">
+    
+            </div>
+        </div>
+    </section>
+<!-- end tasks section -->
+
+
+
+    <!-- popper js -->
+    <script src="./node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- custom js -->
+    <script src="./main.js"></script>
+</body>
+</html>
